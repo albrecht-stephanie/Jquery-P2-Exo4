@@ -1,10 +1,9 @@
-$('#green', '#red', '#blue').on('click', function(){
-    $('#text').css('color', 'green', 'red', 'blue');
+$('#green').on('click', function(){
+    $('#text').css('color', 'green');
 });
-/*$('#red').on('click', function(){
+$('#red').on('click', function(){
     $('#text').css('color', 'red');
 });
 $('#blue').on('click', function(){
     $('#text').css('color', 'blue');
 });
-*/
